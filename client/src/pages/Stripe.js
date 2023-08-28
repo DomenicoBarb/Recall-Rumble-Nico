@@ -3,7 +3,7 @@ import { Typography, Row, Col, Button, Input } from 'antd';
 import { loadStripe } from '@stripe/stripe-js';
 require('dotenv').config();
 
-const stripePromise = loadStripe('pk_test_51NFTHQEEhVSI7lcztkRvr9rszmA4BequNGgJi9b0H9J2cd0q0XxxV2qqWVgBbIJUFKCpOLfhqBlwDOKNsbWIJk0600pI2eOZCW');
+const stripePromise = loadStripe('pk_live_51NFTHQEEhVSI7lczgsjZsD7IQcaxLsUB6tbag2VCxErTeLbr3QjzmsxoL0G4tj6TL10zhv3Xywj8tsd41ZjZIRKh00Epb3mwIX');
 
 const { Title } = Typography;
 
